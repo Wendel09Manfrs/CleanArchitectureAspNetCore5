@@ -12,26 +12,26 @@ O objetivo deste projeto é fornecer um exemplo claro e bem-estruturado de como 
 ```bash
 CleanArchi/
 │
-├── Application/
+├── CleanArchi.Application
 │   ├── Services/
 │   ├── Interfaces/
 │   ├── Mappings/
 │   └── ViewModels/
-├── Domain/
+├── CleanArchi.Domain
 │   ├── Entities/
 │   └── Interfaces/
 │
-├── Infra.Data/
+├── CleanArchi.Infra.Data
 │   ├── Context/
 │   ├── EntityConfigurations/
 │   ├── Migrations/
 │   ├── Models/
 │   └── Repositories/
 │
-├── Infra.IoC/
+├── CleanArchi.Infra.IoC
 │   └── DependencyInjection
 │
-└── MVC/
+└── CleanArchi.MVC
     ├── Controllers/
     ├── MappingConfig/
     ├── Views/
@@ -51,7 +51,7 @@ CleanArchi/
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/seu-usuario/CleanArchitectureAspNetCore5.git
+    git clone https://github.com/Wendel09Manfrs/CleanArchitectureAspNetCore5.git
     ```
 
 2. Navegue até o diretório do projeto na pasta CleanArchi.MVC com o Visual Studio Code:
